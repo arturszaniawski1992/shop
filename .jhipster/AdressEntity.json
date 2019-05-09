@@ -1,0 +1,30 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [
+        {
+            "relationshipName": "n",
+            "otherEntityName": "n",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "n"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "city",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "street",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20190509120842",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "no",
+    "entityTableName": "adress_entity",
+    "databaseType": "sql",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}
